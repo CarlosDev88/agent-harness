@@ -1,0 +1,14 @@
+# Código base de la empresa y sus worktrees: nunca se versionan en el arnés
+repo/
+worktrees/
+
+# Estado de tickets: local. Solo se versiona el ejemplo.
+tickets/*
+!tickets/_ejemplo-cerrado/
+
+# Notas personales
+privado/
+
+.DS_Store
+__pycache__/
+node_modules/
